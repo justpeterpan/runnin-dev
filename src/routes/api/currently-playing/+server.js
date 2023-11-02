@@ -1,7 +1,7 @@
-import { LFM } from '$env/static/private';
+import { LFM_KEY, LFM_USER } from '$env/static/private';
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
-	const url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=majormovez&api_key=${LFM}&format=json&nowplaying=%22true%22`;
+	const url = `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${LFM_USER}&api_key=${LFM_KEY}&format=json&nowplaying=%22true%22`;
 
 	try {
 		const response = await fetch(url);

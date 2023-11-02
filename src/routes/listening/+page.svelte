@@ -8,7 +8,7 @@
 	<p>
 		Music I listened to and rated, starting from november '23.
 		<br />
-		Grouped by month and year. Ordered by the day I listened to them.
+		Grouped by month and year. Ordered by the day I listened to it.
 		<br />
 		No genre boundaries, no time boundaries, no language boundaries.
 	</p>
