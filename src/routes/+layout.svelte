@@ -4,7 +4,7 @@
 	import Header from './header.svelte';
 </script>
 
-<div class="p-4">
+<div class="px-4">
 	<Header />
 
 	<main class="m-10 mx-auto sm:w-[640px]">

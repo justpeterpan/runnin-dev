@@ -4,8 +4,8 @@
 	$: currentPath = $page.url.pathname;
 </script>
 
-<nav class="sticky top-0 pt-8 backdrop-blur-md z-50 pb-2">
-	<ul class="hidden sm:w-[640px] sm:flex mx-auto gap-1">
+<nav class="sm:block hidden sticky top-0 pt-8 backdrop-blur-md z-50 pb-2">
+	<ul class="sm:w-[640px] sm:flex mx-auto gap-1">
 		<li class="mr-8 font-medium">
 			<a href="/"><strong>{config.title}</strong></a>
 		</li>

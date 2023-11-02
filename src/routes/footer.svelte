@@ -4,8 +4,8 @@
 	$: currentPath = $page.url.pathname;
 </script>
 
-<footer class="fixed w-full bottom-0 py-4 backdrop-blur-sm">
-	<ul class="flex mx-auto sm:hidden justify-center gap-4">
+<footer class="fixed sm:hidden w-full bottom-0 py-4 backdrop-blur-sm">
+	<ul class="flex mx-auto gap-4">
 		<li class="mr-8 font-medium">
 			<a href="/"><strong>{config.title}</strong></a>
 		</li>
