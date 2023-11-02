@@ -15,9 +15,18 @@
 	<hr class="my-8 opacity-10" />
 	<section class="mb-6">
 		<h2 class="font-bold mb-1">♫ currently playing</h2>
-		<div class="flex flex-row gap-2">
+		<div class="flex flex-row gap-5">
 			{#if data.track.name}
-				<img src={data.track.image[0]['#text']} alt="cover" class="w-12 h-12 rounded-sm" />
+				<div class="equalizer h-12 relative z-10 left-1.5 opacity-60">
+					<div class="equalizer-bar" />
+					<div class="equalizer-bar" />
+					<div class="equalizer-bar" />
+					<div class="equalizer-bar" />
+					<div class="equalizer-bar" />
+					<div class="equalizer-bar" />
+					<div class="equalizer-bar" />
+				</div>
+				<img src={data.track.image[0]['#text']} alt="cover" class="w-12 h-12 rounded-sm absolute" />
 				<div class="flex flex-col">
 					<div>
 						<strong>Artist:</strong>
@@ -99,3 +108,55 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.equalizer {
+		display: flex;
+		align-items: flex-end;
+	}
+
+	.equalizer-bar {
+		width: 3px;
+		background-color: white;
+		margin: 0 1px;
+		animation: equalize 0.5s infinite;
+	}
+
+	@keyframes equalize {
+		0%,
+		100% {
+			height: 4px;
+		}
+		25% {
+			height: 10px;
+		}
+		50% {
+			height: 6px;
+		}
+		75% {
+			height: 14px;
+		}
+	}
+
+	.equalizer-bar:nth-child(1) {
+		animation-delay: 0.1s;
+	}
+	.equalizer-bar:nth-child(2) {
+		animation-delay: 0.2s;
+	}
+	.equalizer-bar:nth-child(3) {
+		animation-delay: 0.3s;
+	}
+	.equalizer-bar:nth-child(4) {
+		animation-delay: 0.4s;
+	}
+	.equalizer-bar:nth-child(5) {
+		animation-delay: 0.5s;
+	}
+	.equalizer-bar:nth-child(6) {
+		animation-delay: 0.6s;
+	}
+	.equalizer-bar:nth-child(7) {
+		animation-delay: 0.7s;
+	}
+</style>
