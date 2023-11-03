@@ -63,6 +63,26 @@
 				<div class="mb-2">
 					<strong>Listened on:</strong> 2023-11-03
 				</div>
+				<Rating rating={4} />
+			</div>
+		</div>
+
+		<!--  -->
+		<div class="flex flex-col sm:flex-row sm:space-x-8 space-y-4 sm:space-y-0">
+			<div
+				class="relative w-full sm:w-60 aspect-square before:border-2 before:border-white before:top-2 before:left-2 before:w-full before:h-full before:absolute before:rounded-xl before:bg-[#1a1a1a] hover:before:bg-white before:transition-colors before:duration-500 before:ease-in-out"
+			>
+				<img
+					class="absolute inset-0 rounded-xl border-2 border-white object-cover w-full h-full"
+					src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/12/31/4f/12314f82-1d6c-3478-811a-276bf8f3af18/61297805334.jpg/632x632bb.webp"
+					alt="album cover"
+				/>
+			</div>
+			<div class="flex flex-col">
+				<h3 class="font-bold mb-0">Caraml - Seasons (2023-11-03)</h3>
+				<div class="mb-2">
+					<strong>Listened on:</strong> 2023-11-03
+				</div>
 				<Rating rating={3.5} />
 			</div>
 		</div>
