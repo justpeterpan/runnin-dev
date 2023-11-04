@@ -1,5 +1,8 @@
 <script lang="ts">
 	import Rating from '$lib/rating.svelte';
+	import AM from '$lib/assets/am.svg';
+	import SP from '$lib/assets/sp.svg';
+	import MusicServices from '$lib/music-services.svelte';
 	export let data;
 </script>
 
@@ -43,12 +46,47 @@
 			>
 				<img
 					class="absolute inset-0 rounded-lg border-2 border-white object-cover w-full h-full"
+					src="https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cc/e8/fe/cce8fe70-162e-b642-5e44-0b79b373c7b6/00724383429059.jpg/632x632bb.webp"
+					alt="album cover"
+				/>
+			</div>
+			<div class="flex flex-col justify-center">
+				<div class="flex flex-row">
+					<h3 class="font-bold mb-0">Guru - Jazzmatazz Volume II: The New Reality</h3>
+					<MusicServices
+						am="jazzmatazz-volume-ii-the-new-reality/723458510"
+						sp="4muPpXUkiFbHhEQG7OugQV"
+					/>
+				</div>
+				<div class="font-extralight">
+					<strong>Listened on:</strong> 2023-11-04
+				</div>
+				<div class="mb-2 font-extralight">
+					<strong>Release date:</strong> 1995-07-18
+				</div>
+				<Rating rating={4} />
+			</div>
+		</div>
+
+		<!--  -->
+		<div class="flex flex-col sm:flex-row sm:space-x-8 space-y-4 sm:space-y-0">
+			<div
+				class="relative w-full sm:w-28 aspect-square before:border-2 before:border-white before:top-1 before:left-1.5 before:w-full before:h-full before:absolute before:rounded-lg before:bg-[#1a1a1a] hover:before:bg-white before:transition-colors before:duration-500 before:ease-in-out"
+			>
+				<img
+					class="absolute inset-0 rounded-lg border-2 border-white object-cover w-full h-full"
 					src="https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/1d/68/481d68f8-bc99-f2a4-a194-e8abf4c4ccf4/00600753830468.rgb.jpg/632x632bb.webp"
 					alt="album cover"
 				/>
 			</div>
 			<div class="flex flex-col justify-center">
-				<h3 class="font-bold mb-0">Guru - Guru's Jazzmatazz, Vol. 1</h3>
+				<div class="flex flex-row">
+					<h3 class="font-bold mb-0">Guru - Guru's Jazzmatazz, Vol. 1</h3>
+					<MusicServices
+						am="gurus-jazzmatazz-vol-1-deluxe-edition/1362365584?"
+						sp="4kO7EI4XxT5M0BMkrx0mBh"
+					/>
+				</div>
 				<div class="font-extralight">
 					<strong>Listened on:</strong> 2023-11-04
 				</div>
@@ -71,7 +109,10 @@
 				/>
 			</div>
 			<div class="flex flex-col justify-center">
-				<h3 class="font-bold mb-0">Patrice - 9</h3>
+				<div class="flex flex-row">
+					<h3 class="font-bold mb-0">Patrice - 9</h3>
+					<MusicServices am="9/1704653703" sp="7di526sKYULYh7w7c9Xg07" />
+				</div>
 				<div class="font-extralight">
 					<strong>Listened on:</strong> 2023-11-03
 				</div>
@@ -94,7 +135,10 @@
 				/>
 			</div>
 			<div class="flex flex-col justify-center">
-				<h3 class="font-bold mb-0">Caraml - Seasons</h3>
+				<div class="flex flex-row">
+					<h3 class="font-bold mb-0">Caraml - Seasons</h3>
+					<MusicServices am="seasons/1701563212" sp="0chl6nunyxbRfdMBNUjmNr" />
+				</div>
 				<div class="font-extralight">
 					<strong>Listened on:</strong> 2023-11-03
 				</div>
@@ -117,7 +161,10 @@
 				/>
 			</div>
 			<div class="flex flex-col justify-center">
-				<h3 class="font-bold mb-0">Ronnie Laws - Pressure Sensitive</h3>
+				<div class="flex flex-row">
+					<h3 class="font-bold mb-0">Ronnie Laws - Pressure Sensitive</h3>
+					<MusicServices am="pressure-sensitive/723664773" sp="5mBZFylK3027Vraz0Jnz7G" />
+				</div>
 				<div class="font-extralight">
 					<strong>Listened on:</strong> 2023-11-02
 				</div>
@@ -140,7 +187,10 @@
 				/>
 			</div>
 			<div class="flex flex-col justify-center">
-				<h3 class="font-bold mb-0">(FKA) twigs - EP</h3>
+				<div class="flex flex-row">
+					<h3 class="font-bold mb-0">(FKA) twigs - EP</h3>
+					<MusicServices am="ep1-ep/1183013750" sp="44keDDETPLFK48WCykPKit" />
+				</div>
 				<div class="font-extralight">
 					<strong>Listened on:</strong> 2023-11-02
 				</div>
@@ -163,7 +213,10 @@
 				/>
 			</div>
 			<div class="flex flex-col justify-center">
-				<h3 class="font-bold mb-0">Portishead - Roseland NYC Live 25</h3>
+				<div class="flex flex-row">
+					<h3 class="font-bold mb-0">Portishead - Roseland NYC Live 25</h3>
+					<MusicServices am="roseland-nyc-live-25/1712706758" sp="2PPiJ1nPcFPek42CwW3Yav" />
+				</div>
 				<div class="font-extralight">
 					<strong>Listened on:</strong> 2023-11-02
 				</div>
