@@ -1,0 +1,72 @@
+[
+	{
+		"name": "Jazzmatazz Volume II: The New Reality",
+		"artist": "Guru",
+		"releaseDate": "1995-18-07",
+		"listenedOn": "2023-11-04",
+		"rating": 4,
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cc/e8/fe/cce8fe70-162e-b642-5e44-0b79b373c7b6/00724383429059.jpg/632x632bb.webp",
+		"spotify": "4muPpXUkiFbHhEQG7OugQV",
+		"appleMusic": "jazzmatazz-volume-ii-the-new-reality/723458510"
+	},
+	{
+		"name": "Guru's Jazzmatazz, Vol. 1",
+		"artist": "Guru",
+		"releaseDate": "1993-18-05",
+		"listenedOn": "2023-11-04",
+		"rating": 4,
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/1d/68/481d68f8-bc99-f2a4-a194-e8abf4c4ccf4/00600753830468.rgb.jpg/632x632bb.webp",
+		"spotify": "4kO7EI4XxT5M0BMkrx0mBh",
+		"appleMusic": "gurus-jazzmatazz-vol-1-deluxe-edition/1362365584"
+	},
+	{
+		"name": "9",
+		"artist": "Patrice",
+		"releaseDate": "2023-11-03",
+		"listenedOn": "2023-11-03",
+		"rating": 4,
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/ee/a4/cfeea4b7-e42a-e566-5b33-5353ed2a9f40/23UMGIM87104.rgb.jpg/632x632bb.webp",
+		"spotify": "7di526sKYULYh7w7c9Xg07",
+		"appleMusic": "9/1704653703"
+	},
+	{
+		"name": "Seasons",
+		"artist": "Caraml",
+		"releaseDate": "2023-11-03",
+		"listenedOn": "2023-11-03",
+		"rating": 3.5,
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/12/31/4f/12314f82-1d6c-3478-811a-276bf8f3af18/61297805334.jpg/632x632bb.webp",
+		"spotify": "0chl6nunyxbRfdMBNUjmNr",
+		"appleMusic": "seasons/1701563212"
+	},
+	{
+		"name": "Pressure Sensitive",
+		"artist": "Ronnie Laws",
+		"releaseDate": "1975",
+		"listenedOn": "2023-11-02",
+		"rating": 3,
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/cf/0b/b0cf0b81-3d26-7bf9-6f9a-28f47dc9b5d2/00077774655453.jpg/632x632bb.webp",
+		"spotify": "5mBZFylK3027Vraz0Jnz7G",
+		"appleMusic": "pressure-sensitive/723664773"
+	},
+	{
+		"name": "EP",
+		"artist": "FKA twigs",
+		"releaseDate": "2012-12-04",
+		"listenedOn": "2023-11-02",
+		"rating": 4,
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6b/a2/d7/6ba2d787-cb1c-d4a9-f528-138ff08a89b1/889030011664.png/632x632bb.webp",
+		"spotify": "44keDDETPLFK48WCykPKit",
+		"appleMusic": "ep1-ep/1183013750"
+	},
+	{
+		"name": "Roseland NYC Live 25",
+		"artist": "Portishead",
+		"releaseDate": "2023-11-02",
+		"listenedOn": "2023-11-02",
+		"rating": 4,
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/d0/b2/1cd0b26b-0b36-ddb7-191b-1501a8f17930/23UM1IM22187.rgb.jpg/632x632bb.webp",
+		"spotify": "2PPiJ1nPcFPek42CwW3Yav",
+		"appleMusic": "roseland-nyc-live-25/1712706758"
+	}
+]
