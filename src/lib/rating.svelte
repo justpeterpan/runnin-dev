@@ -22,7 +22,7 @@
 				d="M12 2 L15.09 8.45 L22 9.27 L17 14.18 L18.18 21.09 L12 17.77 L5.82 21.09 L7 14.18 L2 9.27 L8.91 8.45 Z"
 				fill="none"
 				stroke="currentColor"
-				stroke-width="2"
+				stroke-width="1"
 				stroke-linecap="round"
 				stroke-linejoin="round"
 			/>
@@ -53,8 +53,8 @@
 	}
 
 	.star {
-		width: 1.5rem;
-		height: 1.5rem;
+		width: 1rem;
+		height: 1rem;
 		margin: 0 0.15rem;
 	}
 
