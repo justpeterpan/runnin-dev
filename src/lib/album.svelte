@@ -1,5 +1,5 @@
 <script lang="ts">
-	import MusicServices from '$lib/music-services.svelte';
+	import MusicServices from './music-services.svelte';
 	import Rating from './rating.svelte';
 
 	type Album = {

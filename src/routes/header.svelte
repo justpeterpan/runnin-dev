@@ -52,10 +52,6 @@
 		transition: transform 0.3s ease-in-out;
 	}
 
-	.link::before {
-		background-color: var(--primary-color);
-	}
-
 	.link:hover::before {
 		transform: scaleX(0);
 		cursor: default;
