@@ -35,7 +35,7 @@
 		right: -10px;
 		top: 3px;
 		width: 10px;
-		height: 100.9%;
+		height: calc(100% + 2px);
 		transform: skewY(45deg);
 		border-top: 3px solid white;
 		border-bottom: none;
@@ -44,7 +44,7 @@
 		border-image-slice: 1 0 1 1;
 		bottom: -10px;
 		right: -5px;
-		width: 101.2%;
+		width: calc(100% + 2px);
 		height: 10px;
 		transform: skewX(45deg);
 		border-left: 3px solid white;
