@@ -4,7 +4,7 @@ export async function load({ fetch }) {
 	let error;
 
 	try {
-		const response = await fetch('/api/currently-playing', { cache: 'default' });
+		const response = await fetch('/api/currently-playing', { cache: '' });
 		if (response.ok) {
 			track = await response.json();
 			return { track };

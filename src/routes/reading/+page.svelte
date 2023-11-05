@@ -10,10 +10,8 @@
 	<section class="mb-20">
 		<div class="bg-white w-full p-10 rounded-md">
 			<div class="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 gap-10">
-				<div class="shad w-40 rounded-sm">
-					<span class="with-texture relative">
-						<img src={TheLastDevilToDie} alt="book cover" class="w-40 rounded-sm object-cover" />
-					</span>
+				<div class="shad w-40 rounded-sm with-texture relative">
+					<img src={TheLastDevilToDie} alt="book cover" class="w-40 rounded-sm object-cover" />
 				</div>
 			</div>
 		</div>
@@ -22,20 +20,14 @@
 	<section>
 		<div class="bg-white w-full p-10 rounded-md">
 			<div class="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 gap-10">
-				<div class="shad w-40 rounded-sm">
-					<span class="with-texture relative">
-						<img src={ThursdayMurderClub} alt="book cover" class="w-40 rounded-sm object-cover" />
-					</span>
+				<div class="shad w-40 rounded-sm with-texture relative">
+					<img src={ThursdayMurderClub} alt="book cover" class="w-40 rounded-sm object-cover" />
 				</div>
-				<div class="shad w-40 rounded-sm">
-					<span class="with-texture relative">
-						<img src={TheManWhoDiedTwice} alt="book cover" class="w-40 rounded-sm object-cover" />
-					</span>
+				<div class="shad w-40 rounded-sm with-texture relative">
+					<img src={TheManWhoDiedTwice} alt="book cover" class="w-40 rounded-sm object-cover" />
 				</div>
-				<div class="shad w-40 rounded-sm">
-					<span class="with-texture relative">
-						<img src={TheBulletThatMissed} alt="book cover" class="w-40 rounded-sm object-cover" />
-					</span>
+				<div class="shad w-40 rounded-sm with-texture relative">
+					<img src={TheBulletThatMissed} alt="book cover" class="w-40 rounded-sm object-cover" />
 				</div>
 			</div>
 		</div>
@@ -52,7 +44,6 @@
 		border-radius: 2px;
 		pointer-events: none;
 		box-shadow: rgba(15, 15, 15, 0.1) 1px 1px 1px 0px inset;
-		/* border-right: 1px solid rgba(255, 255, 255, 0.1); */
 		background: linear-gradient(
 			90deg,
 			rgba(0, 0, 0, 0.118) 0.65%,
