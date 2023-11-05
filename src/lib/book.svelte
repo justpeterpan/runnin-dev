@@ -32,21 +32,22 @@
 		z-index: -1;
 	}
 	.btn:before {
-		border-image: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
-		border-image-slice: 1 1 0 1;
 		right: -10px;
 		top: 3px;
 		width: 10px;
-		height: 101.7%;
+		height: 100.9%;
 		transform: skewY(45deg);
+		border-top: 3px solid white;
+		border-bottom: none;
 	}
 	.btn:after {
-		border-image: linear-gradient(45deg, #ffffff, #ffffff);
 		border-image-slice: 1 0 1 1;
 		bottom: -10px;
-		right: -7px;
-		width: 102.5%;
+		right: -5px;
+		width: 101.2%;
 		height: 10px;
 		transform: skewX(45deg);
+		border-left: 3px solid white;
+		border-right: none;
 	}
 </style>
