@@ -4,8 +4,11 @@
 	$: currentPath = $page.url.pathname;
 </script>
 
-<footer class="fixed sm:hidden w-full bottom-0 py-4 z-50 bg-[#1a1a1a]">
-	<ul class="flex flex-nowrap gap-4 overflow-x-auto min-w-full">
+<footer class="fixed sm:static w-full bottom-0 py-4 z-50 bg-[#1a1a1a] sm:flex sm:justify-center">
+	<span class="hidden sm:inline font-extralight text-neutral-500 text-xs"
+		>&copy; {new Date().getUTCFullYear()} · no ads · no tracking</span
+	>
+	<ul class="flex flex-nowrap gap-4 overflow-x-auto min-w-full sm:hidden">
 		<li
 			class={currentPath === '/'
 				? 'active mr-8 !ml-0 font-medium logo min-w-fit'
@@ -15,9 +18,6 @@
 		</li>
 		<li>
 			<a href="/blog" class={currentPath === '/blog' ? 'active' : 'link'}>blog</a>
-		</li>
-		<li>
-			<a href="/listening" class={currentPath === '/listening' ? 'active' : 'link'}>listening</a>
 		</li>
 		<li>
 			<a href="/listening" class={currentPath === '/listening' ? 'active' : 'link'}>listening</a>
