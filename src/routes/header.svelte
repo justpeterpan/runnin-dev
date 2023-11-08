@@ -6,18 +6,30 @@
 
 <nav class="sm:block hidden sticky top-0 pt-8 bg-[#1a1a1a] z-50 pb-2">
 	<ul class="sm:w-[640px] sm:flex mx-auto gap-1">
-		<li class="mr-8 font-medium">
+		<li
+			class={currentPath === '/'
+				? 'active mr-8 !ml-0 font-medium logo'
+				: 'link mr-8 !ml-0 font-medium logo'}
+		>
 			<a href="/"><strong>{config.title}</strong></a>
 		</li>
 		<li>
-			<a href="/now" class={currentPath === '/now' ? 'active' : 'link'}>now</a>
+			<a href="/blog" class={currentPath === '/blog' ? 'active' : 'link'}>blog</a>
 		</li>
 		<li>
 			<a href="/listening" class={currentPath === '/listening' ? 'active' : 'link'}>listening</a>
 		</li>
 		<li>
-			<a href="/reading" class={currentPath === '/reading' ? 'active last' : 'link last'}>reading</a
-			>
+			<a href="/reading" class={currentPath === '/reading' ? 'active' : 'link'}>reading</a>
+		</li>
+		<li>
+			<a href="/running" class={currentPath === '/running' ? 'active' : 'link'}>running</a>
+		</li>
+		<li>
+			<a href="/links" class={currentPath === '/links' ? 'active' : 'link'}>links</a>
+		</li>
+		<li>
+			<a href="/now" class={currentPath === '/now' ? 'active last' : 'link last'}>now</a>
 		</li>
 	</ul>
 </nav>
@@ -72,6 +84,10 @@
 	}
 
 	.last::after {
+		content: '';
+	}
+
+	.logo::after {
 		content: '';
 	}
 </style>

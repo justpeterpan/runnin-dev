@@ -5,19 +5,34 @@
 </script>
 
 <footer class="fixed sm:hidden w-full bottom-0 py-4 z-50 bg-[#1a1a1a]">
-	<ul class="flex mx-auto gap-4">
-		<li class="mr-8 font-medium">
+	<ul class="flex flex-nowrap gap-4 overflow-x-auto min-w-full">
+		<li
+			class={currentPath === '/'
+				? 'active mr-8 !ml-0 font-medium logo min-w-fit'
+				: 'link mr-8 !ml-0 font-medium logo min-w-fit'}
+		>
 			<a href="/"><strong>{config.title}</strong></a>
 		</li>
 		<li>
-			<a href="/now" class={currentPath === '/now' ? 'active' : 'link'}>now</a>
+			<a href="/blog" class={currentPath === '/blog' ? 'active' : 'link'}>blog</a>
 		</li>
 		<li>
 			<a href="/listening" class={currentPath === '/listening' ? 'active' : 'link'}>listening</a>
 		</li>
 		<li>
-			<a href="/reading" class={currentPath === '/reading' ? 'active last' : 'link last'}>reading</a
-			>
+			<a href="/listening" class={currentPath === '/listening' ? 'active' : 'link'}>listening</a>
+		</li>
+		<li>
+			<a href="/reading" class={currentPath === '/reading' ? 'active' : 'link'}>reading</a>
+		</li>
+		<li>
+			<a href="/running" class={currentPath === '/running' ? 'active' : 'link'}>running</a>
+		</li>
+		<li>
+			<a href="/links" class={currentPath === '/links' ? 'active' : 'link'}>links</a>
+		</li>
+		<li>
+			<a href="/now" class={currentPath === '/now' ? 'active last' : 'link last'}>now</a>
 		</li>
 	</ul>
 </footer>
@@ -35,25 +50,9 @@
 		cursor: pointer;
 	}
 
-	.link::before,
-	.active::before {
-		content: '';
-
-		position: absolute;
-		cursor: default;
-		height: 2px;
-		bottom: -6px;
-		left: 0;
-		right: 0;
-		transform-origin: bottom left;
-		transform: scaleX(1);
-		transition: transform 0.3s ease-in-out;
-	}
-
-	.link:hover::before {
-		transform: scaleX(0);
-		cursor: default;
-		transform-origin: bottom right;
+	.active {
+		text-decoration: 2px underline solid #ff3ca7;
+		text-underline-offset: 1px;
 	}
 
 	.link::after,
@@ -70,6 +69,10 @@
 	}
 
 	.last::after {
+		content: '';
+	}
+
+	.logo::after {
 		content: '';
 	}
 </style>

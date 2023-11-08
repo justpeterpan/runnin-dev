@@ -2,27 +2,45 @@
 	import albums from './albums.json';
 	import Album from '$lib/album.svelte';
 	import PlayingIndicator from '$lib/playing-indicator.svelte';
-	export let data;
+	import { onMount } from 'svelte';
+
+	let data: {
+		['@attr']?: { nowplaying: string };
+		album: { '#text': string };
+		artist: { '#text': string };
+		image: { '#text': string }[];
+		name: string;
+		message?: string;
+	};
+
+	let loading = true;
+
+	onMount(async () => {
+		const response = await fetch('/api/currently-playing');
+		data = await response.json();
+		console.log(data);
+		loading = false;
+	});
 </script>
 
 <div>
 	<h1 class="text-5xl font-black mb-10 sm:hidden">Listening</h1>
 	<section class="mb-6">
 		<h2 class="font-bold mb-2">♫ currently playing</h2>
-		<div class="flex flex-row gap-7">
-			{#if data.track.name}
+		<div class="flex flex-row gap-7 h-12">
+			{#if data?.name !== undefined}
 				<PlayingIndicator />
-				<img src={data.track.image[3]['#text']} alt="cover" class="w-12 h-12 rounded-sm absolute" />
+				<img src={data.image[3]['#text']} alt="cover" class="w-12 h-12 rounded-sm absolute" />
 				<div class="grid grid-cols-2-max-content font-extralight">
 					<strong>Artist:&nbsp;</strong>
-					{data?.track?.artist['#text']}
+					{data?.artist['#text']}
 					<strong>Song:&nbsp;</strong>
-					{data?.track?.name}
+					{data?.name}
 				</div>
-			{:else if data.track.message}
-				<div>{data.track.message}</div>
+			{:else if loading}
+				<div>loading...</div>
 			{:else}
-				<div>{data.error}</div>
+				<div>{data?.message || 'something went wrong'}</div>
 			{/if}
 		</div>
 	</section>
@@ -36,8 +54,6 @@
 	</div>
 	<div class="flex flex-col space-y-12" />
 </div>
-
-<!---->
 
 <style>
 	.grid-cols-2-max-content {
