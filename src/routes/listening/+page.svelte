@@ -18,7 +18,6 @@
 	onMount(async () => {
 		const response = await fetch('/api/currently-playing');
 		data = await response.json();
-		console.log(data);
 		loading = false;
 	});
 </script>
