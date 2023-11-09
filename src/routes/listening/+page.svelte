@@ -29,7 +29,12 @@
 		<div class="flex flex-row gap-7 h-12">
 			{#if data?.name !== undefined}
 				<PlayingIndicator />
-				<img src={data.image[3]['#text']} alt="cover" class="w-12 h-12 rounded-sm absolute" />
+				<img
+					src={data.image[3]['#text']}
+					alt="cover"
+					class="w-12 h-12 rounded-sm absolute"
+					loading="lazy"
+				/>
 				<div class="grid grid-cols-2-max-content font-extralight">
 					<strong>Artist:&nbsp;</strong>
 					{data?.artist['#text']}

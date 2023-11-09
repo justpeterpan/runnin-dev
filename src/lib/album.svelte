@@ -22,8 +22,11 @@
 	>
 		<img
 			class="absolute inset-0 rounded-lg border-2 border-white object-cover w-full h-full"
+			width="200"
+			height="200"
 			src={album.cover}
 			alt={album.name}
+			loading="lazy"
 		/>
 	</div>
 	<div class="flex flex-col justify-center">

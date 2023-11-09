@@ -1,5 +1,11 @@
 <div class="text-lg">
-	<img src="/header.jpg" alt="running shoes" class="rounded-md drop-shadow-lg mb-8" />
+	<img
+		src="/header.jpg"
+		alt="running shoes"
+		class="rounded-md drop-shadow-lg mb-8"
+		width="640"
+		height="480"
+	/>
 	<p>
 		Hello! Peter here, passionate about coding. I currently work as a web developer in Cologne.
 		Welcome to my personal website, where I share my <a href="/blog">thoughts</a> on

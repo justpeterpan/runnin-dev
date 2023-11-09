@@ -1,5 +1,25 @@
 [
 	{
+		"name": "Midnight Marauders",
+		"artist": "A Tribe Called Quest",
+		"releaseDate": "1993-11-09",
+		"listenedOn": "2023-11-09",
+		"rating": 5,
+		"cover": "/src/lib/assets/cover/atcq.gif",
+		"spotify": "4v5x3Oo3UjQ9YmF3hRAip5",
+		"appleMusic": "midnight-marauders/265670545"
+	},
+	{
+		"name": "Enter The Wu-Tang (36 Chambers)",
+		"artist": "Wu-Tang Clan",
+		"releaseDate": "1993-11-09",
+		"listenedOn": "2023-11-09",
+		"rating": 5,
+		"cover": "/src/lib/assets/cover/wutang.gif",
+		"spotify": "6acGx168JViE5LLFR1rGRE",
+		"appleMusic": "enter-the-wu-tang-36-chambers/304781708"
+	},
+	{
 		"name": "Untrue",
 		"artist": "Burial",
 		"releaseDate": "2007-11-05",
@@ -9,7 +29,6 @@
 		"spotify": "1C30LhZB9I48LdpVCRRYvq",
 		"appleMusic": "untrue/1056902908"
 	},
-
 	{
 		"name": "(What's the Story) Morning Glory?",
 		"artist": "Oasis",

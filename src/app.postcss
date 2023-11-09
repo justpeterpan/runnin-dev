@@ -10,3 +10,26 @@ body {
 	color: white;
 	-webkit-font-smoothing: antialiased;
 }
+
+.prose :is(h2, h3, h4, h5, h6) {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.prose :is(h2) {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.prose {
+	position: absolute;
+	z-index: 20;
+	max-width: 640px;
+	padding-bottom: 50px;
+}
+
+.prose p {
+	white-space: wrap;
+	max-width: 60ch;
+	font-size: 1.125rem;
+}
