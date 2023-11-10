@@ -33,7 +33,7 @@
 		<li>
 			<a href="/links" class={currentPath === '/links' ? 'active' : 'link'}>links</a>
 		</li>
-		<li>
+		<li class="mr-4">
 			<a href="/now" class={currentPath === '/now' ? 'active last' : 'link last'}>now</a>
 		</li>
 	</ul>
