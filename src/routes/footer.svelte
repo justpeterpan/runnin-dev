@@ -5,7 +5,7 @@
 </script>
 
 <footer
-	class="fixed -ml-[16px] sm:ml-0 pl-4 sm:pl-0 sm:static w-full bottom-0 py-4 z-50 bg-[#1a1a1a] sm:flex sm:justify-center"
+	class="fixed sm:ml-0 pl-4 sm:pl-0 sm:static w-full bottom-0 py-4 z-50 bg-[#1a1a1a] sm:flex sm:justify-center"
 >
 	<span class="hidden sm:inline font-extralight text-neutral-500 text-xs"
 		>&copy; {new Date().getUTCFullYear()} · no ads · no tracking</span

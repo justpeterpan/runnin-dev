@@ -13,7 +13,7 @@
 	$: currentPath = $page.url.pathname;
 </script>
 
-<nav class="sm:flex justify-center hidden sticky top-0 pt-8 z-50 pb-2">
+<nav class="sm:flex justify-center hidden sticky top-0 pt-8 z-50 pb-8 backdrop-blur-md">
 	<ul class="relative p-0 m-0 sm:w-[640px] sm:flex bg-contain gap-4">
 		{#each links as link}
 			<li class={link.class}>
